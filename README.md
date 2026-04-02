@@ -18,7 +18,7 @@ In case you get the error "cannot open file", you should also install the requir
 SilentNimvest can be executed directly without any required parameters from an elevated Administrator terminal.
 
 ```
-PS C:\Users\test\Desktop\SilentHarvest> .\SilentHarvest.exe
+PS C:\Users\test\Desktop\SilentNimvest> .\SilentNimvest.exe
  __ _ _            _       __ _                         _
 / _(_) | ___ _ __ | |_  /\ \ (_)_ __ _____   _____  ___| |_
 \ \| | |/ _ \ '_ \| __|/  \/ / | '_ ` _ \ \ / / _ \/ __| __|
