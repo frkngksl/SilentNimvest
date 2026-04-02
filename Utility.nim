@@ -1,6 +1,17 @@
 import winim
 import std/strutils
 
+proc PrintBanner*():void = 
+    var banner = """
+ __ _ _            _       __ _                         _   
+/ _(_) | ___ _ __ | |_  /\ \ (_)_ __ _____   _____  ___| |_ 
+\ \| | |/ _ \ '_ \| __|/  \/ / | '_ ` _ \ \ / / _ \/ __| __|
+_\ \ | |  __/ | | | |_/ /\  /| | | | | | \ V /  __/\__ \ |_ 
+\__/_|_|\___|_| |_|\__\_\ \/ |_|_| |_| |_|\_/ \___||___/\__|
+                                                                 
+                         @R0h1rr1m                                       
+"""
+    echo banner
 
 proc SeqToUnicode*(input:seq[byte]):string = 
   var index:int= 0

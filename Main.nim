@@ -599,6 +599,7 @@ proc GetSAMDump() =
     echo "[*] Local User RID: " & ridStr & " - " & $usernameWstring & " - " & hashes
 
 proc main() =
+  PrintBanner()
   if(not DynamicallyLoadFunctions()):
     echo "[-] Cannot call required functions"
     quit(-1)
@@ -610,6 +611,7 @@ proc main() =
   GetSAMDump()
   echo ""
   echo "[!] Trying to parse Security Related Credentials (Cached Domain Logon Info, Machine Account and LSA Secrets)"
+  echo ""
   GetSecurityDump()
   
 when isMainModule:
